@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: pacman-qzqe
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads-stage/jephilli-tenant/second-application/pacman-qzqe@sha256:bf434fdf5be786582b2b2208c8c06001538c6ee34e33dcc2cd63c88ae25f3547
         imagePullPolicy: Always
         name: container-image
         ports:
