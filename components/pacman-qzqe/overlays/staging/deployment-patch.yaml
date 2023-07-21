@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: pacman-qzqe
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/jephilli-tenant/second-application/pacman-qzqe@sha256:c45bfaa713f3ec175d6bf24c30fc31ec98c060c502a8fde96c58cedd7a457c87
+        name: container-image
+        resources: {}
+status: {}
