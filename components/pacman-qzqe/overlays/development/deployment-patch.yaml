@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/jephilli-tenant/second-application/pacman-qzqe@sha256:bf434fdf5be786582b2b2208c8c06001538c6ee34e33dcc2cd63c88ae25f3547
+      - image: quay.io/redhat-user-workloads-stage/jephilli-tenant/second-application/pacman-qzqe@sha256:c45bfaa713f3ec175d6bf24c30fc31ec98c060c502a8fde96c58cedd7a457c87
         name: container-image
         resources: {}
 status: {}
